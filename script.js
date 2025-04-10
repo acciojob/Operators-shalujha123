@@ -25,7 +25,7 @@ document.getElementById("calculate").addEventListener("click",() => {
 				result = "Invalid operator!"
 		}
 	}
-	document.getElementById("result").textContent = "Result: "+result
+	document.getElementById("result").textContent = result
 })
 
 document.getElementById("change_text").addEventListener("click",()=>{
